@@ -1,0 +1,11 @@
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\PeliculasAPI.exe
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\appsettings.Development.json
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\appsettings.json
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\PeliculasAPI.dll
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\PeliculasAPI.deps.json
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\PeliculasAPI.runtimeconfig.json
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\PeliculasAPI.pdb
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\Microsoft.OpenApi.dll
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+h:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\bin\Release\net9.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

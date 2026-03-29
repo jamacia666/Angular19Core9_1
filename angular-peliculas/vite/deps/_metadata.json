@@ -1,0 +1,76 @@
+{
+  "hash": "5534ef45",
+  "configHash": "e3443762",
+  "lockfileHash": "67efe3f7",
+  "browserHash": "b7ea6316",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "65ad753a",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "29989577",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "f55e428c",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "ab162599",
+      "needsInterop": false
+    },
+    "@angular/material/button": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/button.mjs",
+      "file": "@angular_material_button.js",
+      "fileHash": "69ac820f",
+      "needsInterop": false
+    },
+    "@angular/cdk/bidi": {
+      "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
+      "file": "@angular_cdk_bidi.js",
+      "fileHash": "6af2b27f",
+      "needsInterop": false
+    },
+    "@angular/material/icon": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/icon.mjs",
+      "file": "@angular_material_icon.js",
+      "fileHash": "e137ccd7",
+      "needsInterop": false
+    },
+    "@angular/material/toolbar": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/toolbar.mjs",
+      "file": "@angular_material_toolbar.js",
+      "fileHash": "1eaf222f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TS35N65N": {
+      "file": "chunk-TS35N65N.js"
+    },
+    "chunk-EVAURJV5": {
+      "file": "chunk-EVAURJV5.js"
+    },
+    "chunk-LCY4MSF7": {
+      "file": "chunk-LCY4MSF7.js"
+    },
+    "chunk-FWRLN435": {
+      "file": "chunk-FWRLN435.js"
+    },
+    "chunk-7MI5ZFLP": {
+      "file": "chunk-7MI5ZFLP.js"
+    },
+    "chunk-5P7TZWAS": {
+      "file": "chunk-5P7TZWAS.js"
+    }
+  }
+}
