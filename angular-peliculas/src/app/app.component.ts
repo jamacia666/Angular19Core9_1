@@ -8,8 +8,8 @@ import { RouterOutlet } from '@angular/router';
 
 
 @Component({
-  selector: 'app-root', 
-  imports: [ListadoPeliculasComponent, MenuComponent, RatingComponent, MatButtonModule,RouterOutlet],
+  selector: 'app-root',
+  imports: [ MenuComponent, RatingComponent, MatButtonModule,RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -21,15 +21,15 @@ export class AppComponent implements OnInit  {
   procesarVoto(voto: number) {
    alert('Calificación otorgada ${voto}');
   }
-  
+
   ngOnInit(): void {
-     
+
   }
 
   }
-  
 
-  
-         
+
+
+
 
 

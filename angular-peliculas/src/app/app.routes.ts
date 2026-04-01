@@ -12,6 +12,7 @@ import { EditarGeneroComponent } from './generos/editar-genero/editar-genero.com
 import { EditarActorComponent } from './actores/editar-actor/editar-actor.component';
 import { EditarCineComponent } from './cines/editar-cine/editar-cine.component';
 import { EditarPeliculaComponent } from './peliculas/editar-pelicula/editar-pelicula.component';
+import { FiltroPeliculasComponent } from './peliculas/filtro-peliculas/filtro-peliculas.component';
 
 export const routes: Routes = [
     {path: '',component: LandingPageComponent},
@@ -20,12 +21,13 @@ export const routes: Routes = [
     {path:'generos/editar/:id',component: EditarGeneroComponent},
     {path:'actores',component: IndiceActoresComponent},
     {path:'actores/crear',component: CrearActorComponent},
-    {path:'actores/editar/:id',component: EditarActorComponent},   
-    {path:'cines',component:IndiceCinesComponent},  
+    {path:'actores/editar/:id',component: EditarActorComponent},
+    {path:'cines',component:IndiceCinesComponent},
     {path:'cines/crear',component: CrearCineComponent},
-    {path:'cines/editar/:id',component: EditarCineComponent},  
+    {path:'cines/editar/:id',component: EditarCineComponent},
     {path:'peliculas/crear',component: CrearPeliculaComponent},
     {path:'peliculas/editar/:id',component: EditarPeliculaComponent},
+    {path: 'peliculas/filtrar',component: FiltroPeliculasComponent},
     {path:'**',redirectTo: ''}
 
 

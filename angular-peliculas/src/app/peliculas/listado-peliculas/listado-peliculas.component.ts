@@ -5,6 +5,7 @@ import { MatButtonModule } from '@angular/material/button'
 import { MatIconModule }  from  '@angular/material/icon'
 
 @Component({
+  standalone: true,
   selector: 'app-listado-peliculas',
   imports: [ListadoGenericoComponent,MatButtonModule,MatIconModule],
   templateUrl: './listado-peliculas.component.html',
@@ -12,12 +13,12 @@ import { MatIconModule }  from  '@angular/material/icon'
 })
 export class ListadoPeliculasComponent {
 
-   
+
     @Input({required: true})
     peliculas!: any[];
 
 
-  
 
-  
+
+
 }

@@ -10,19 +10,19 @@ import { GeneroCreacionDTO } from '../generos';
 
 @Component({
   selector: 'app-crear-generos',
-  imports: [MatButtonModule, RouterLink, MatFormFieldModule, ReactiveFormsModule, MatInputModule, FormularioGeneroComponent],
+  imports: [MatButtonModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, FormularioGeneroComponent],
   templateUrl: './crear-generos.component.html',
   styleUrl: './crear-generos.component.css'
 })
 export class CrearGenerosComponent {
  router = inject(Router);
- 
+
 
  guardarCambios(genero: GeneroCreacionDTO){
   //this.router.navigate(['/generos']);
   console.log('creando el género ' , genero);
  }
-  
- 
-  
+
+
+
 }
