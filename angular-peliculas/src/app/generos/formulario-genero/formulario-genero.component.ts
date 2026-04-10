@@ -28,7 +28,7 @@ modelo? :GeneroDTO;
 
  form = this.formbuilder.group(
    {
-    nombre: ['', {validators: [Validators.required, primeraLetraMayuscula()]}]
+    nombre: ['', {validators: [Validators.required, primeraLetraMayuscula(), Validators.maxLength(50)]}]
    } )
 
  obtenerErrorCampoNombre():string {
@@ -36,6 +36,10 @@ modelo? :GeneroDTO;
   if (nombre.hasError('required')) {
     return "El campo nombre es requerido";
   }
+  if (nombre.hasError('maxlength')) {
+  const max = nombre.getError('maxlength').requiredLength;
+  return `El campo nombre no puede tener más de ${max} caracteres`;
+}
   if (nombre.hasError('primeraLetraMayuscula')) {
     return nombre.getError("primeraLetraMayuscula").mensaje;
   }
@@ -45,7 +49,7 @@ modelo? :GeneroDTO;
 guardarCambios() {
   console.log(this.form.value);
   if (!this.form.valid) {
-    return;    
+    return;
   }
   const genero = this.form.value as GeneroCreacionDTO;
   this.posteoFormulario.emit(genero);

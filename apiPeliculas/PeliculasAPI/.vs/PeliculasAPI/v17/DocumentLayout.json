@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\peliculasapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\peliculasapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\utilidades\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\utilidades\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PeliculasAPI.csproj",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
-              "RelativeDocumentMoniker": "PeliculasAPI\\PeliculasAPI.csproj",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
-              "RelativeToolTip": "PeliculasAPI\\PeliculasAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-06T10:38:25.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PeliculasAPI\\appsettings.Development.json",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\appsettings.Development.json",
-              "RelativeToolTip": "PeliculasAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T10:32:08.869Z"
+              "Title": "IQueryableExtensions.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
+              "RelativeToolTip": "PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T12:32:44.297Z"
             },
             {
               "$type": "Document",
@@ -65,38 +48,34 @@
               "RelativeDocumentMoniker": "PeliculasAPI\\Program.cs",
               "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
               "RelativeToolTip": "PeliculasAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T07:23:25.185Z",
+              "WhenOpened": "2026-04-09T12:31:40.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerosController.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\GenerosController.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\GenerosController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T12:27:04.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "PeliculasAPI\\appsettings.json",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\appsettings.json",
-              "RelativeToolTip": "PeliculasAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T07:41:30.98Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Properties\\launchSettings.json",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "PeliculasAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T07:15:45.147Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
+              "RelativeToolTip": "PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T12:27:17.066Z"
             }
           ]
         }
