@@ -41,7 +41,7 @@ export class CrearEntidadComponent<TDTO,TCreacionDTO> implements AfterViewInit {
   private componentRef!: ComponentRef<any>
 
    guardarCambios(entidad: TCreacionDTO){
-
+   console.log(entidad);
   this.serviciosCRUD.crear(entidad).subscribe({
     next: () => {
       this.router.navigate([this.rutaIndice]);

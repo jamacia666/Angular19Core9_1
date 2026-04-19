@@ -47,11 +47,11 @@ export class FormularioCinesComponent implements OnInit {
     }
     return "";
   }
-  
+
   coordenadaSeleccionada(coordenada: Coordenada) {
    this.form.patchValue(coordenada);
   }
-  guardarCampos() {
+  guardarCambios() {
     if (!this.form.valid) {
       return;
     }
@@ -60,6 +60,6 @@ export class FormularioCinesComponent implements OnInit {
     this.posteoFormulario.emit(cine);
   }
 
-  
+
 
 }
