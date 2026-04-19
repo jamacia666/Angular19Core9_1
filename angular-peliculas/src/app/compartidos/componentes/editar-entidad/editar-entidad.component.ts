@@ -35,9 +35,8 @@ export class EditarEntidadComponent<TDTO,TCreacionDTO> implements OnInit {
   }
 
 
-
-  @Input({required:true})
-  id!: number;
+@Input()
+  id!:number;
 
   @Input({required:true})
   titulo!:string;
