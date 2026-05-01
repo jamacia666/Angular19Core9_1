@@ -15,6 +15,7 @@ import { MostrarErroresComponent } from "../mostrar-errores/mostrar-errores.comp
 export class EditarEntidadComponent<TDTO,TCreacionDTO> implements OnInit {
 
   ngOnInit(): void {
+    console.log('ID QUE LLEGA:', this.id);
     this.serviciosCRUD.obtenerPorId(this.id).subscribe(entidad => {
     this.CargarComponente(entidad);
     })

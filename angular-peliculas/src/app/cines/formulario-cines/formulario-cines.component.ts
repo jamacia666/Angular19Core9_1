@@ -3,7 +3,7 @@ import { FormBuilder, FormControl, ReactiveFormsModule, Validators } from '@angu
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { RouterLink } from '@angular/router';
-import { CineCreacionDto } from '../cines';
+import { CineCreacionDto, CineDto } from '../cines';
 import { MapaComponent } from "../../compartidos/componentess/mapa/mapa.component";
 import { Coordenada } from '../../compartidos/componentess/mapa/Coordenadas';
 
@@ -23,7 +23,7 @@ export class FormularioCinesComponent implements OnInit {
     }
   }
   @Input()
-  modelo?: CineCreacionDto;
+  modelo?: CineDto;
 
   @Output()
   posteoFormulario = new EventEmitter<CineCreacionDto>();

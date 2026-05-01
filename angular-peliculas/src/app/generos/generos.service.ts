@@ -33,6 +33,7 @@ public actualizar(id: number, genero: GeneroCreacionDTO): Observable<any> {
   return this.http.put(`${this.urlBase}/${id}`,genero);
 }
   public crear(genero: GeneroCreacionDTO):Observable<any> {
+    console.log(this.urlBase);
     return this.http.post(this.urlBase, genero)
   }
 

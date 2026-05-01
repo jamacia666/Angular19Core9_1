@@ -7,6 +7,7 @@ import { IndiceEntidadComponent } from "../../compartidos/componentes/indice-ent
 
 @Component({
   selector: 'app-indice-cines',
+   standalone: true,
   imports: [RouterLink, MatButtonModule, IndiceEntidadComponent],
   templateUrl: './indice-cines.component.html',
   styleUrl: './indice-cines.component.css',
