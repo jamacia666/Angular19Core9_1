@@ -16,17 +16,17 @@ export class CinesService implements IServicioCRUD<CineDto,CineCreacionDto>{
 
 
   private http= inject(HttpClient);
-  private urlBase = environment.apiUrl='/cines';
+  private urlBase = `${environment.apiUrl}/cines`;
     constructor() { }
-    
+
   public obtenerPaginado(paginacion: PaginacionDTO): Observable<HttpResponse<CineDto[]>> {
     let queryParams = construirQueryParams(paginacion);
-   
-   
-   
+    console.log('URL' + this.urlBase);
+
+
     return this.http.get<CineDto[]>(`${this.urlBase}`,{params: queryParams,observe:'response'}) ;
   }
- 
+
  public obtenerPorId(id: number): Observable<CineDto> {
     return this.http.get<CineDto>(`$(this.urlBase)/${id}`)
   }
