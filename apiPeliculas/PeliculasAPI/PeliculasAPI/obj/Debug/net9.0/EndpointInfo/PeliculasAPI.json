@@ -603,6 +603,148 @@
           }
         }
       }
+    },
+    "/api/peliculas/{id}": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "operationId": "ObtenerPeliculaPorId",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/peliculas/PostGet": {
+      "get": {
+        "tags": [
+          "Peliculas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPostGetDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPostGetDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PeliculasPostGetDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/peliculas": {
+      "post": {
+        "tags": [
+          "Peliculas"
+        ],
+        "parameters": [
+          {
+            "name": "GenerosIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
+            "name": "Actores",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ActorPeliculaCreacionDTO"
+              }
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Titulo"
+                ],
+                "type": "object",
+                "properties": {
+                  "Titulo": {
+                    "maxLength": 300,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Trailer": {
+                    "type": "string"
+                  },
+                  "FechaLanzamiento": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Poster": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "CinesIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Titulo": {
+                  "style": "form"
+                },
+                "Trailer": {
+                  "style": "form"
+                },
+                "FechaLanzamiento": {
+                  "style": "form"
+                },
+                "Poster": {
+                  "style": "form"
+                },
+                "CinesIds": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -626,6 +768,23 @@
             "format": "date-time"
           },
           "foto": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActorPeliculaCreacionDTO": {
+        "required": [
+          "personaje"
+        ],
+        "type": "object",
+        "properties": {
+          "actorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "personaje": {
             "type": "string",
             "nullable": true
           }
@@ -713,6 +872,26 @@
           }
         },
         "additionalProperties": false
+      },
+      "PeliculasPostGetDTO": {
+        "type": "object",
+        "properties": {
+          "generos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GeneroDTO"
+            },
+            "nullable": true
+          },
+          "cines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CineDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       }
     }
   },
@@ -725,6 +904,9 @@
     },
     {
       "name": "Generos"
+    },
+    {
+      "name": "Peliculas"
     }
   ]
 }

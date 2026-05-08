@@ -28,15 +28,15 @@ export class CinesService implements IServicioCRUD<CineDto,CineCreacionDto>{
   }
 
  public obtenerPorId(id: number): Observable<CineDto> {
-    return this.http.get<CineDto>(`$(this.urlBase)/${id}`)
+    return this.http.get<CineDto>(`${this.urlBase}/${id}`)
   }
   public actualizar(id: number, cine: CineCreacionDto): Observable<any> {
-    return this.http.put(`$(this.urlBase)/${id}`,cine);
+    return this.http.put(`${this.urlBase}/${id}`,cine);
   }
  public crear(cine: CineCreacionDto): Observable<any> {
     return this.http.post(this.urlBase,cine);
   }
  public borrar(id: number): Observable<any> {
-    return this.http.delete(`$(this.urlBase)/${id}`);
+    return this.http.delete(`${this.urlBase}/${id}`);
   }
 }
