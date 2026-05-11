@@ -75,15 +75,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PeliculasAPI",
+              "Title": "PeliculasAPI.csproj",
               "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
               "RelativeDocumentMoniker": "PeliculasAPI\\PeliculasAPI.csproj",
               "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
               "RelativeToolTip": "PeliculasAPI\\PeliculasAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-08T09:41:50.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T09:41:50.898Z"
             },
             {
               "$type": "Document",
@@ -105,7 +104,7 @@
               "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\TypeBinder.cs",
               "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\TypeBinder.cs",
               "RelativeToolTip": "PeliculasAPI\\Utilidades\\TypeBinder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T09:33:04.214Z",
               "EditorCaption": ""
@@ -120,8 +119,7 @@
               "RelativeToolTip": "PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA6wBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T10:04:06.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T10:04:06.495Z"
             },
             {
               "$type": "Document",
@@ -169,7 +167,8 @@
               "RelativeToolTip": "PeliculasAPI\\Controllers\\PeliculasController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T09:25:09.324Z"
+              "WhenOpened": "2026-05-06T09:25:09.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

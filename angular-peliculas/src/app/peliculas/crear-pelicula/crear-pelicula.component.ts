@@ -30,6 +30,7 @@ export class CrearPeliculaComponent {
   constructor() {
     this.peliculasService.CrearGet().subscribe(modelo =>{
       this.generosNoSeleccionados= modelo.generos.map(genero => {
+          console.log("Generos no seleccionados");
           return <SelectorMultipleDto>{llave: genero.id,valor: genero.nombre}
       })
        this.cinesNoSeleccionados= modelo.cines.map(cine => {
