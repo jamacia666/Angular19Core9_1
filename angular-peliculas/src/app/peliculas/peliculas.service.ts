@@ -12,10 +12,10 @@ export class PeliculasService {
   constructor() { }
 
   private http= inject(HttpClient);
-  private urlBase = environment.apiUrl= '/peliculas';
+  private urlBase = `${environment.apiUrl}/peliculas`;
 
   public CrearGet(): Observable<PeliculasPostGetDTO> {
-    return  this.http.get<PeliculasPostGetDTO>(`${this.urlBase}/posget`);
+    return  this.http.get<PeliculasPostGetDTO>(`${this.urlBase}/postget`);
   }
 
   public crear(pelicula: PeliculasCreacionDto):Observable<PeliculasDto> {

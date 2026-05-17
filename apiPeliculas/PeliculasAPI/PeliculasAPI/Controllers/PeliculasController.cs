@@ -12,15 +12,15 @@ namespace PeliculasAPI.Controllers
 {
     [Route("api/peliculas")]
     [ApiController]
-    public class PeliculasController(AplicationDbContext context, IMapper mapper, IOutputCacheStore outputCacheStore, IAlmacenadorArchivos almacenadorArchivos,
+    public class PeliculasController(AplicationDbContext context, IMapper mapper, IOutputCacheStore outputCacheStore, IAlmacenadorArchivos almacenadorArchivos
 
-        string cacheTag) : CustomBaseController(context, mapper, outputCacheStore, cacheTag)
+        ) : CustomBaseController(context, mapper, outputCacheStore, cacheTag)
     {
         private readonly AplicationDbContext context = context;
         private readonly IMapper mapper = mapper;
         private readonly IOutputCacheStore outputCacheStore = outputCacheStore;
         private readonly IAlmacenadorArchivos almacenadorArchivos = almacenadorArchivos;
-        private readonly string cacheTag;
+        private const string cacheTag="peliculas";
         private readonly string contenedor = "peliculas"           ;
 
 
