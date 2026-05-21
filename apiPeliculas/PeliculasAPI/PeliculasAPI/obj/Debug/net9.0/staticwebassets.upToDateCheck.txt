@@ -6,3 +6,4 @@ wwwroot\actores\a64cd154-a2d4-4519-8c54-cecf70840ac8.jpg
 wwwroot\actores\bb3bc40a-d8cd-46b3-aa41-589297642cf0.jpg
 wwwroot\actores\cd1424f9-c3fc-4e85-94fa-a1fdc8d3bcf2.jpg
 wwwroot\actores\f7605eea-f1d0-4130-bb2d-cce5d26ec9b2.jpg
+wwwroot\actores\d2f05502-ff4b-4b7a-9392-342500b27873.jpg
