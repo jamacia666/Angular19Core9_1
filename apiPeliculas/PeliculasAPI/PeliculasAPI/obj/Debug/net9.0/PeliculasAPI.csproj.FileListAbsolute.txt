@@ -162,3 +162,4 @@ H:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\obj\De
 H:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\obj\Debug\net9.0\PeliculasAPI.pdb
 H:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\obj\Debug\net9.0\PeliculasAPI.genruntimeconfig.cache
 H:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\obj\Debug\net9.0\ref\PeliculasAPI.dll
+H:\Jose\Cursos\CursoAngular19Core9\apiPeliculas\PeliculasAPI\PeliculasAPI\obj\Debug\net9.0\swae.build.ex.cache

@@ -723,6 +723,17 @@
             }
           },
           {
+            "name": "CinesIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
             "name": "Actores",
             "in": "query",
             "schema": {
@@ -757,13 +768,6 @@
                   "Poster": {
                     "type": "string",
                     "format": "binary"
-                  },
-                  "CinesIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "integer",
-                      "format": "int32"
-                    }
                   }
                 }
               },
@@ -778,9 +782,6 @@
                   "style": "form"
                 },
                 "Poster": {
-                  "style": "form"
-                },
-                "CinesIds": {
                   "style": "form"
                 }
               }

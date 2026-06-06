@@ -15,6 +15,7 @@ namespace PeliculasAPI.DTOs
         public IFormFile? Poster { get; set; }
         [ModelBinder(BinderType = typeof(TypeBinder))]   
         public List<int>? GenerosIds { get; set; }
+        [ModelBinder(BinderType = typeof(TypeBinder))]
         public List<int>? CinesIds { get; set; }
         [ModelBinder(BinderType = typeof(TypeBinder))]
         public List<ActorPeliculaCreacionDTO>? Actores { get; set; }
