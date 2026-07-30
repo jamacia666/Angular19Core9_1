@@ -11,3 +11,10 @@ wwwroot\peliculas\f2161351-b972-4ca3-8e94-ba55fd239bdf.png
 wwwroot\peliculas\39f71a70-0513-43dc-a236-0d6415b68cc7.png
 wwwroot\peliculas\6023321d-5d0d-4f86-8b7b-4e9bef314b62.png
 wwwroot\peliculas\02d30177-e8bf-4b72-9ac7-8b2ce6e6b251.png
+wwwroot\peliculas\c162d68d-9983-442c-9d45-e265d614c5f7.png
+wwwroot\peliculas\a84f73c5-83c9-4376-81e5-32f98b735e74.jpg
+wwwroot\peliculas\5bbbd52d-e97b-4b7c-b006-460a6025deaf.png
+wwwroot\peliculas\7958edf8-e75c-4029-aa30-4d15e8f344aa.jpg
+wwwroot\peliculas\4fc6b4d7-46b5-4112-9e44-b5f34c6ef900.jpg
+wwwroot\peliculas\bc6c5856-c468-40c2-8001-7a9cf246531a.jpg
+wwwroot\peliculas\49172365-ac7b-4f23-b234-e908890135a0.jpg

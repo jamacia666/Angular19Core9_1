@@ -2,7 +2,7 @@
 {
     public class ActorPeliculaCreacionDTO
     {
-        public int ActorId { get; set; }
+        public int Id { get; set; }
         public required string Personaje { get; set; }
     }
 }

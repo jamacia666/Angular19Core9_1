@@ -1,42 +1,69 @@
-import { Component, Input, numberAttribute } from '@angular/core';
+import { Component, Input, numberAttribute, OnInit} from '@angular/core';
 import { PeliculasCreacionDto, PeliculasDto } from '../peliculas';
 import { FormularioPeliculasComponent } from "../formulario-peliculas/formulario-peliculas.component";
 import { SelectorMultipleDto } from '../../compartidos/componentes/selector-multiple/SelectorMultipleModelo';
 import { ActorAutoCompleteDto } from '../../actores/actores';
+import { inject } from '@angular/core';
+import { PeliculasService } from '../peliculas.service';
+import { extraerErrores } from '../../compartidos/funciones/extraerErrores';
+import { Router } from '@angular/router';
+import { MostrarErroresComponent } from "../../compartidos/componentes/mostrar-errores/mostrar-errores.component";
+import { CargandoComponent } from "../../compartidos/componentes/cargando/cargando.component";
 
 @Component({
   selector: 'app-editar-pelicula',
-  imports: [FormularioPeliculasComponent],
+  imports: [FormularioPeliculasComponent, MostrarErroresComponent, CargandoComponent],
   templateUrl: './editar-pelicula.component.html',
   styleUrl: './editar-pelicula.component.css'
 })
-export class EditarPeliculaComponent {
+export class EditarPeliculaComponent  implements OnInit {
+
+   ngOnInit(): void {
+    this.peliculasService.actualizarGet(this.id).subscribe(modelo => {
+      this.pelicula = modelo.pelicula;
+      this.actoresSeleccionados = modelo.actores;
+      this.cinesNoSeleccionados = modelo.cinesNoSeleccionados.map(cine => {
+        return <SelectorMultipleDto>{llave: cine.id, valor: cine.nombre};
+      });
+
+      this.cinesSeleccionados = modelo.cinesSeleccionados.map(cine => {
+        return <SelectorMultipleDto>{llave: cine.id, valor: cine.nombre};
+      });
+
+      this.generosNoSeleccionados = modelo.generosNoSeleccionados.map(genero => {
+        return <SelectorMultipleDto>{llave: genero.id, valor: genero.nombre};
+      });
+
+      this.generosSeleccionados = modelo.generosSeleccionados.map(genero => {
+        return <SelectorMultipleDto>{llave: genero.id, valor: genero.nombre};
+      });
+    });
+  }
   @Input({transform: numberAttribute})
    id!:  number;
 
-   pelicula: PeliculasDto = { id: 1,titulo: 'Spider-Man', trailer: 'ABC', fechaLanzamiento: new Date('2018-07-25'), poster: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Inside_Out_2_poster.jpg/250px-Inside_Out_2_poster.jpg' }
+   pelicula!: PeliculasDto;
+   generosSeleccionados!: SelectorMultipleDto[];
+   generosNoSeleccionados!: SelectorMultipleDto[];
+   cinesSeleccionados!: SelectorMultipleDto[];
+   cinesNoSeleccionados!: SelectorMultipleDto[];
+   actoresSeleccionados!: ActorAutoCompleteDto[];
 
-     generosSeleccionados: SelectorMultipleDto[]= [
-        {llave: 2, valor: 'Acción'}
-     ];
-     generosNoSeleccionados: SelectorMultipleDto[] = [
-       {llave: 1, valor: 'Drama'},
-       {llave: 3, valor: 'Comedia'}
-     ];
+   peliculasService= inject (PeliculasService)
+   router = inject(Router);
+   errores: string[] = [];
 
-   cinesSeleccionados: SelectorMultipleDto[]= [
-      {llave: 2, valor: 'Blue Mall'},
-   ];
-   cinesNoSeleccionados: SelectorMultipleDto[] = [
-    {llave: 1, valor: 'Agora Mall'},
-    {llave: 3, valor: 'Acrópolis'}
-  ];
 
-    actoresSeleccionados : ActorAutoCompleteDto[] = [
-      {id: 1, nombre:'Tom Holland', personaje: 'Forrest Gump', foto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg/250px-Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg'}
-    ]
-    guardarCambios(pelicula: PeliculasCreacionDto) {
-       console.log('editando película', pelicula)
-     }
+    guardarCambios(pelicula: PeliculasCreacionDto){
+    this.peliculasService.actualizar(this.id, pelicula).subscribe({
+      next: () => {
+        this.router.navigate(['/']);
+      },
+      error: err => {
+        const errores = extraerErrores(err);
+        this.errores = errores;
+      }
+    })
   }
 
+}
