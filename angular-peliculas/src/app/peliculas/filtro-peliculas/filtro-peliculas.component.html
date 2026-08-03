@@ -9,7 +9,7 @@
    <mat-form-field appearance="outline">
      <mat-label>Género</mat-label>
      <mat-select [formControl]="form.controls.generoId">
-        <mat-option [value="0"]>--Seleccione un género--</mat-option>
+        <mat-option [value]="0">--Seleccione un género--</mat-option>
          @for (genero of generos; track $index) {
           <mat-option [value]="genero.id">{{genero.nombre}}</mat-option>
          }
@@ -30,3 +30,8 @@
 </form>
 
 <app-listado-peliculas [peliculas]="peliculas"></app-listado-peliculas>
+
+<mat-paginator showFirstLastButtons [length]="cantidadTotalRegistros" [pageIndex]="paginacion.pagina"
+[pageSize]="paginacion.recordsPorPagina" [pageSizeOptions]="[5, 10, 50]" class="mat-elevation-z8"
+(page)="actualizarPaginacion($event)"
+></mat-paginator>

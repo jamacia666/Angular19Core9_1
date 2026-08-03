@@ -7,7 +7,7 @@ import { EditarEntidadComponent } from "../../compartidos/componentes/editar-ent
 
 @Component({
   selector: 'app-editar-cine',
-  imports: [FormularioCinesComponent, EditarEntidadComponent],
+  imports: [ EditarEntidadComponent],
   templateUrl: './editar-cine.component.html',
   styleUrl: './editar-cine.component.css',
   providers: [

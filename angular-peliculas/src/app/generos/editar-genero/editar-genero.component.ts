@@ -12,7 +12,7 @@ import { EditarEntidadComponent } from "../../compartidos/componentes/editar-ent
 
 @Component({
   selector: 'app-editar-genero',
-  imports: [FormularioGeneroComponent, CargandoComponent, MostrarErroresComponent, EditarEntidadComponent],
+  imports: [EditarEntidadComponent],
   templateUrl: './editar-genero.component.html',
   styleUrl: './editar-genero.component.css',
   providers: [

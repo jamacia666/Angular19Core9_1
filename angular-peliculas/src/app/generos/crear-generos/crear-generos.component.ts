@@ -17,7 +17,7 @@ import { CrearEntidadComponent } from "../../compartidos/componentes/crear-entid
 
 @Component({
   selector: 'app-crear-generos',
-  imports: [MatButtonModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, FormularioGeneroComponent, MostrarErroresComponent, CrearEntidadComponent],
+  imports: [MatButtonModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule,  CrearEntidadComponent],
   templateUrl: './crear-generos.component.html',
   styleUrl: './crear-generos.component.css',
   providers: [

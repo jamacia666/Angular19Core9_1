@@ -10,7 +10,7 @@ import { CrearEntidadComponent } from "../../compartidos/componentes/crear-entid
 
 @Component({
   selector: 'app-crear-actor',
-  imports: [FormularioActoresComponent, MostrarErroresComponent, CrearEntidadComponent],
+  imports: [ CrearEntidadComponent],
   templateUrl: './crear-actor.component.html',
   styleUrl: './crear-actor.component.css',
   providers : [

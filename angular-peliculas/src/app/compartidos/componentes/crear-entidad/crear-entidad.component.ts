@@ -8,7 +8,7 @@ import { CdkDragPlaceholder } from "@angular/cdk/drag-drop";
 
 @Component({
   selector: 'app-crear-entidad',
-  imports: [MostrarErroresComponent, CdkDragPlaceholder],
+  imports: [MostrarErroresComponent],
   templateUrl: './crear-entidad.component.html',
   styleUrl: './crear-entidad.component.css'
 })
