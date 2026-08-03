@@ -5,8 +5,9 @@ import { routes } from './app.routes';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 import { provideMomentDateAdapter} from '@angular/material-moment-adapter';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
-import { provideHttpClient, withFetch } from '@angular/common/http';
+import { provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
 import {SweetAlert2Module} from '@sweetalert2/ngx-sweetalert2';
+import { authInterceptor } from './seguridad/token-interceptor-http';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -24,7 +25,7 @@ export const appConfig: ApplicationConfig = {
         monthYearA11yLabel: 'MMM YYY',
       }
     }),
-    provideHttpClient(withFetch()),
+    provideHttpClient(withFetch(), withInterceptors([authInterceptor])),
     importProvidersFrom([SweetAlert2Module.forRoot()])
   ]
 };

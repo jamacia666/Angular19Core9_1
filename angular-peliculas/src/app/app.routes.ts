@@ -17,6 +17,7 @@ import { DetallePeliculaComponent } from './peliculas/detalle-pelicula/detalle-p
 import { esAdminGuard } from './compartidos/guards/es-admin.guard';
 import { LoginComponent } from './seguridad/login/login.component';
 import { RegistroComponent } from './seguridad/registro/registro.component';
+import { IndiceUsuariosComponent } from './seguridad/indice-usuarios/indice-usuarios.component';
 
 
 export const routes: Routes = [
@@ -36,6 +37,7 @@ export const routes: Routes = [
     {path: 'pelicula/:id', component: DetallePeliculaComponent},
     {path: 'login',component: LoginComponent},
     {path: 'registrar', component: RegistroComponent},
+    {path: 'usuarios',component: IndiceUsuariosComponent},
     {path:'**',redirectTo: ''}
 
 
