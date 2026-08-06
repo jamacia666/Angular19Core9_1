@@ -673,6 +673,53 @@
   },
   {
     "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "HacerAdmin",
+    "RelativePath": "api/usuarios/HacerAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarClaimDTO",
+        "Type": "PeliculasAPI.DTOs.EditarClaimDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "ListadoUsuarios",
+    "RelativePath": "api/usuarios/ListadoUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecordsPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.UsuarioDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
     "Method": "Login",
     "RelativePath": "api/usuarios/login",
     "HttpMethod": "POST",
@@ -722,5 +769,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.UsuariosController",
+    "Method": "RemoverAdmin",
+    "RelativePath": "api/usuarios/RemoverAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarClaimDTO",
+        "Type": "PeliculasAPI.DTOs.EditarClaimDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

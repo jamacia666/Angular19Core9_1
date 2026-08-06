@@ -48,6 +48,10 @@ builder.Services.AddAuthentication().AddJwtBearer(opciones =>
     };
 });
 
+builder.Services.AddAuthorization(opciones   =>
+{
+    opciones.AddPolicy("esadmin", politica => politica.RequireClaim("esadmin"));
+});
 
 builder.Services.AddDbContext<AplicationDbContext>(opciones =>
    opciones.UseSqlServer("name=DefaultConnection", sqlServer =>
@@ -55,10 +59,11 @@ builder.Services.AddDbContext<AplicationDbContext>(opciones =>
    ));
 
 
+
 builder.Services.AddSingleton<GeometryFactory>(NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326));
 
 builder.Services.AddOutputCache(opciones => {
-    opciones.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(60);
+    opciones.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(61);
 });
 
 var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(",");
@@ -71,7 +76,8 @@ builder.Services.AddCors(opciones => {
     );
 
 builder.Services.AddTransient<IAlmacenadorArchivos, AlmacenadorArchivosLocal>();
-builder.Services.AddHttpContextAccessor(); 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient<IServicioUsuarios, ServicioUsuarios>();
 
 var app = builder.Build();
 

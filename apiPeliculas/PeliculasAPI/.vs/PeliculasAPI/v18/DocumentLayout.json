@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\servicios\\iserviciousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\servicios\\iserviciousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\dtos\\editarclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\editarclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\servicios\\serviciousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\servicios\\serviciousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\dtos\\ratingcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\ratingcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\entidades\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\entidades\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|h:\\jose\\cursos\\cursoangular19core9\\apipeliculas\\peliculasapi\\peliculasapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1614C78C-E78F-4716-B204-F5E94ED743D1}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,51 +46,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IServicioUsuarios.cs",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Servicios\\IServicioUsuarios.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Servicios\\IServicioUsuarios.cs",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Servicios\\IServicioUsuarios.cs",
-              "RelativeToolTip": "PeliculasAPI\\Servicios\\IServicioUsuarios.cs",
+              "DocumentIndex": 1,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T15:58:57.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\DTOs\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\UsuarioDTO.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\DTOs\\UsuarioDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\UsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T22:23:24.107Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-03T15:49:19.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\UsuariosController.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T15:28:11.697Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\AplicationDbContext.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\AplicationDbContext.cs",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\AplicationDbContext.cs",
-              "RelativeToolTip": "PeliculasAPI\\AplicationDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
+              "Title": "EditarClaimDTO.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\DTOs\\EditarClaimDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\EditarClaimDTO.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\DTOs\\EditarClaimDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\EditarClaimDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T21:31:49.16Z",
-              "IsPinned": true
+              "WhenOpened": "2026-08-03T15:30:43.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenerosController.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\GenerosController.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\GenerosController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T15:12:46.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActoresController.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActoresController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\ActoresController.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActoresController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\ActoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T15:06:35.363Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PeliculasController.cs",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\PeliculasController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\PeliculasController.cs",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\PeliculasController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\PeliculasController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Program.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
+              "RelativeToolTip": "PeliculasAPI\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAEwEEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T06:48:16.934Z",
+              "WhenOpened": "2026-08-03T14:06:31.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "ServicioUsuarios.cs",
+              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
+              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
+              "RelativeToolTip": "PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T22:00:38.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "RatingsController.cs",
               "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Controllers\\RatingsController.cs",
               "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\RatingsController.cs",
@@ -94,56 +155,7 @@
               "RelativeToolTip": "PeliculasAPI\\Controllers\\RatingsController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T21:44:45.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServicioUsuarios.cs",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
-              "RelativeToolTip": "PeliculasAPI\\Servicios\\ServicioUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T22:00:38.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RatingCreacionDTO.cs",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\DTOs\\RatingCreacionDTO.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\RatingCreacionDTO.cs",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\DTOs\\RatingCreacionDTO.cs",
-              "RelativeToolTip": "PeliculasAPI\\DTOs\\RatingCreacionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T21:41:56.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Rating.cs",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Entidades\\Rating.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Entidades\\Rating.cs",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\Entidades\\Rating.cs",
-              "RelativeToolTip": "PeliculasAPI\\Entidades\\Rating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T21:26:52.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "PeliculasAPI\\appsettings.json",
-              "ToolTip": "H:\\Jose\\Cursos\\CursoAngular19Core9\\apiPeliculas\\PeliculasAPI\\PeliculasAPI\\appsettings.json",
-              "RelativeToolTip": "PeliculasAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-01T14:31:16.049Z"
+              "WhenOpened": "2026-08-02T21:44:45.281Z"
             }
           ]
         }

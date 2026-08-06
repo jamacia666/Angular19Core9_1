@@ -2,15 +2,13 @@
 
 namespace PeliculasAPI.Servicios
 {
-    
-
-    public class ServicioUsuarios     
+    public class ServicioUsuarios : IServicioUsuarios
     {
         private readonly IHttpContextAccessor httpContextAccessor;
         private readonly UserManager<IdentityUser> userManager;
 
         public ServicioUsuarios(IHttpContextAccessor httpContextAccessor,
-           UserManager<IdentityUser> userManager)
+            UserManager<IdentityUser> userManager)
         {
             this.httpContextAccessor = httpContextAccessor;
             this.userManager = userManager;
@@ -22,10 +20,5 @@ namespace PeliculasAPI.Servicios
             var usuario = await userManager.FindByEmailAsync(email);
             return usuario!.Id;
         }
-
-
     }
-
-
-
 }
