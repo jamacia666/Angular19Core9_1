@@ -84,7 +84,12 @@ export class SeguridadService {
     localStorage.removeItem(this.llaveToken);
     localStorage.removeItem(this.llaveExpiracion);
   }
-  obtenerRol(): string {
-    return ''
+ obtenerRol(): string {
+    const esAdmin = this.obtenerCampoJWT('esadmin');
+    if (esAdmin) {
+      return 'admin'
+    } else {
+      return '';
+    }
   }
 }
